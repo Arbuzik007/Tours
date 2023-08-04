@@ -1,0 +1,42 @@
+.oneBlock {
+    background: linear-gradient(180deg, #97D3F5 0%, rgba(255, 255, 255, 0.00) 100%);
+}
+.oneBlock__title{
+    position: absolute;
+    max-width: 985px;
+    height: 308px;
+}
+.oneBlock__rock{
+    position: absolute;
+    max-width: 1635px;
+    height: 870px;
+}
+.oneBlock__girl{
+    position: absolute;
+    max-width: 801px;
+    height: 846px;
+}
+.oneBlock__big-btn{
+    font-size: 52px;
+    padding: 60px;
+    padding-bottom: 60px;
+    background: #3C84AB;
+    box-shadow: -10px 14px 20px 0px #FFF;
+}
+.oneBlock__flex{
+    display: flex;
+}
+.oneBlock__flex button{
+    text-transform: uppercase;
+    border-radius: 20px;
+}
+.oneBlock__black-div{
+    border-radius: 20px;
+    background: rgba(20, 20, 19, 0.62);
+    padding: 43px 41px;
+    backdrop-filter: blur(4px);
+    max-width: 1155px;
+}
+.oneBlock__black-div p{
+    color: white;
+}

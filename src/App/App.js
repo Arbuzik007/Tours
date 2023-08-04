@@ -9,7 +9,7 @@ import Footer from '../footer/Footer';
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <Header />
       <OneBlock />
       <TwoBlock />

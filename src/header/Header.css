@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+    font-family: Ubuntu;
+    margin: 0;
+    padding: 0;
+}
+.btn{
+    border-radius: 62px;
+    background: var(--blue, #3C84AB);
+    border: none;
+    height: 40px;
+    color: white;
+}
+img{width: 100%;}
+
+
+.header{
+    display: flex;
+    position: absolute;
+}
+.header__nav{
+    display: flex;
+}
+.header__link{
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+}
+.header__number {
+    display: flex;
+}
+.icon-excel {
+    background-image: url("../img/person.svg");
+    padding-left: 24px;
+    background-repeat : no-repeat;
+}
