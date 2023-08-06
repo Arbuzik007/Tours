@@ -2,10 +2,12 @@ import './OneBlock.css';
 import rock from "../img/bg1.png"
 import girl from "../img/girl.png"
 import title from "../img/title.png"
+import Header from '../header/Header';
 
 function OneBlock() {
     return (
       <div className="oneBlock">
+        <Header />
         <div className='oneBlock__rock'>
           <img src={rock} alt='rock'/>
         </div>
@@ -23,6 +25,7 @@ function OneBlock() {
                нашей фирмы — индивидуальный подход к каждому клиенту.</p>
           </div>
         </div>
+        
       </div>
     );
   }

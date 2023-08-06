@@ -1,12 +1,11 @@
 import './TwoBlock.css';
-import bg from "../img/bg2.jpg"
 
 function TwoBlock() {
     return (
       <div className="twoBlock">
-        <div className='oneBlock__bg'>
-          <img src={bg} alt='bg'/>
-        </div>
+        <h2>Наши туры</h2>
+        <p>Организация банкетов на теплоходе в Якутии приобретает все большую популярность.
+           Это прекрасная возможность насладиться отменной кухней, высококлассным обслуживанием и великолепными.</p>
       </div>
     );
   }

@@ -1,34 +1,51 @@
 .oneBlock {
+    position: relative;
+    height: 100vh;
     background: linear-gradient(180deg, #97D3F5 0%, rgba(255, 255, 255, 0.00) 100%);
 }
 .oneBlock__title{
     position: absolute;
-    max-width: 985px;
-    height: 308px;
+    top: 20vh;
+    left: 15vw;
+    width: 50vw;
 }
 .oneBlock__rock{
     position: absolute;
-    max-width: 1635px;
-    height: 870px;
+    right: 0;
+    bottom: 0;
 }
 .oneBlock__girl{
     position: absolute;
-    max-width: 801px;
-    height: 846px;
+    bottom: 0;
+    width: 40vw;
+    height: auto;
+    left: 12vw;
 }
 .oneBlock__big-btn{
+    position: absolute;
     font-size: 52px;
     padding: 60px;
     padding-bottom: 60px;
     background: #3C84AB;
     box-shadow: -10px 14px 20px 0px #FFF;
+    display: flex;
+    align-items: center;
+    top: 30vw;
+    left: 67vw;
 }
 .oneBlock__flex{
+    position: absolute;
     display: flex;
+    top: 42vw;
+    left: 15vw;
 }
 .oneBlock__flex button{
     text-transform: uppercase;
     border-radius: 20px;
+    width: 215px;
+    height: 140px;
+    font-size: 18px;
+    margin-right: 20px;
 }
 .oneBlock__black-div{
     border-radius: 20px;
@@ -36,6 +53,7 @@
     padding: 43px 41px;
     backdrop-filter: blur(4px);
     max-width: 1155px;
+    font-size: 24px;
 }
 .oneBlock__black-div p{
     color: white;
