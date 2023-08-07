@@ -29,7 +29,7 @@ img{width: 100%;}
 }
 .header__nav{
     display: flex;
-    width: 60vw;
+    width: 55vw;
     justify-content: space-between;
 }
 .header__link{
@@ -38,8 +38,13 @@ img{width: 100%;}
     text-decoration: none;
     color: #000;
 }
+.header__info {
+    display: flex;
+}
 .header__number {
     display: flex;
+    align-items: center;
+    padding-right: 40px;
 }
 .header__come {
     height: 40px;
@@ -48,7 +53,7 @@ img{width: 100%;}
     padding: 8px 20px;
 }
 .icon-excel {
-    background-image: url("../img/person.svg");
+    background-image: url("../img/person.svg") no-repeat;
     padding-left: 24px;
     background-repeat : no-repeat;
 }

@@ -1,3 +1,28 @@
 .twoBlock {
     background-image: url("../img/bg2.jpg");
+    padding: 9vw 15vw;
+}
+.twoBlock__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.twoBlock__header h2 {
+    font-size: 52px;
+    font-weight: 700;
+}
+.twoBlock__btn {
+    padding: 0px 65px;
+    border-radius: 125px;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.twoBlock__description {
+    font-size: 20px;
+}
+.twoBlock__cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 53px;
 }

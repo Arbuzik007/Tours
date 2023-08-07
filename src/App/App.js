@@ -1,5 +1,4 @@
 import './App.css';
-// import Header from '../header/Header';
 import OneBlock from '../one_block/OneBlock';
 import TwoBlock from '../two_block/TwoBlock';
 import ThreeBlock from '../three_block/ThreeBlock';
@@ -10,7 +9,6 @@ import Footer from '../footer/Footer';
 function App() {
   return (
     <div className="app">
-      {/* <Header /> */}
       <OneBlock />
       <TwoBlock />
       <ThreeBlock />

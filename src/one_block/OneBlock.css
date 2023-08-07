@@ -20,10 +20,11 @@
     width: 40vw;
     height: auto;
     left: 12vw;
+    /* max-height: 80vh; */
 }
 .oneBlock__big-btn{
     position: absolute;
-    font-size: 52px;
+    font-size: 2.5vw;
     padding: 60px;
     padding-bottom: 60px;
     background: #3C84AB;
@@ -32,12 +33,14 @@
     align-items: center;
     top: 30vw;
     left: 67vw;
+    width: 30vw;
 }
 .oneBlock__flex{
     position: absolute;
     display: flex;
     top: 42vw;
     left: 15vw;
+    width: 82vw;
 }
 .oneBlock__flex button{
     text-transform: uppercase;
