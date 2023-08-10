@@ -1,0 +1,12 @@
+.fourBlock {
+    padding: 30px 26vw 37px;
+}
+.fourBlock__title {
+    display: flex;
+    justify-content: center;
+    color: #5F96B4;
+    font-family: Ubuntu;
+    font-size: 52px;
+    font-weight: 700;
+    margin-bottom: 60px;
+  }

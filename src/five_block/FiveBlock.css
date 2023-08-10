@@ -1,0 +1,28 @@
+.fiveBlock {
+    background: url('../img/bg4.jpg') lightgray no-repeat center;
+    padding: 96px 620px 52px;
+}
+.fiveBlock__title {
+    display: flex;
+    justify-content: center;
+    color: #5F96B4;
+    font-family: Ubuntu;
+    font-size: 52px;
+}
+.fiveBlock__text {
+    color: #5F96B4;
+    font-family: Ubuntu;
+    font-size: 33px;
+    margin: 86px 0;
+}
+input {
+    border: none;
+    color: #5F96B4;
+    font-family: Ubuntu;
+    font-size: 33px;
+    padding: 53.3px 0 53.5px 20px;
+    width: 100%;
+}
+.two{
+    margin: 24px 0;
+}
