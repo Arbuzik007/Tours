@@ -8,13 +8,11 @@ function Header() {
           <img src={logo} alt='logo'/>
         </div>
         <nav className='header__nav'>
-          <a className='header__link' href=''>главная</a>
-          <a className='header__link' href=''>туры</a>
-          <a className='header__link' href=''>о компании</a>
-          <a className='header__link' href=''>приемущества</a>
-          <a className='header__link' href=''>галерея</a>
-          <a className='header__link' href=''>faq</a>
-          <a className='header__link' href=''>контакты</a>
+          <a className='header__link' href='#one'>главная</a>
+          <a className='header__link' href='#two'>туры</a>
+          <a className='header__link' href='#three'>о компании</a>
+          <a className='header__link' href='#four'>faq</a>
+          <a className='header__link' href='#five'>контакты</a>
         </nav>
         <div className='header__info'>
           <div className='header__number'>

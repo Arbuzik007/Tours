@@ -2,7 +2,7 @@ import './ThreeBlock.css';
 
 function ThreeBlock() {
     return (
-      <div className="threeBlock">
+      <div id='three' className="threeBlock">
         <h2 className='threeBlock__title'>С нами комфортно</h2>
         <p className='threeBlock__text'>Основной принцип работы нашей фирмы — индивидуальный подход к каждому клиенту.</p>
         <div className='threeBlock__blocks'>

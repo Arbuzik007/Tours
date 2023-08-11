@@ -1,0 +1,25 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 13.3vw;
+}
+.footer__column {
+    display: block;
+}
+.center {
+    width: 24.2vw;
+}
+.footer__nav {
+    display: flex;
+    justify-content: space-between;
+}
+.footer__nav img {
+    width: 48px;
+    height: 48px;
+}
+.footer__title {
+
+}
+.footer__text {
+    
+}

@@ -6,7 +6,7 @@ import Header from '../header/Header';
 
 function OneBlock() {
     return (
-      <div className="oneBlock">
+      <div id='one' className="oneBlock">
         <Header />
         <div className='oneBlock__rock'>
           <img src={rock} alt='rock'/>

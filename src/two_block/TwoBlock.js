@@ -6,7 +6,7 @@ import bg3 from '../img/Rectangle 38.jpg';
 
 function TwoBlock() {
     return (
-      <div className="twoBlock">
+      <div id='two' className="twoBlock">
         <div className='twoBlock__header'>
           <h2>Наши туры</h2>
           <button className='twoBlock__btn btn'>все туры</button>
